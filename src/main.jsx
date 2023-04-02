@@ -4,11 +4,12 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import './index.css'
+import './index.scss'
 import Login from './views/Login/Login';
+/*
 import Home from './views/Home/Home';
 import Products from './views/Products/Products';
-
+*/
 const router = createBrowserRouter([
   {
     path: "/",
