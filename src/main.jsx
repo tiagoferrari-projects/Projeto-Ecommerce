@@ -6,10 +6,11 @@ import {
 } from "react-router-dom";
 import './index.scss'
 import Login from './views/Login/Login';
-/*
+
 import Home from './views/Home/Home';
 import Products from './views/Products/Products';
-*/
+import { PRODUCTS_MOCK } from './mock/products.mock';
+
 const router = createBrowserRouter([
   {
     path: "/",

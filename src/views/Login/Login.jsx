@@ -7,7 +7,7 @@ const Login = () => {
   return (
     <section className='login'>
       <Header />
-      <form>
+      <form className='login__form'>
         <h2>Acesse com seu login ou cadastre-se!</h2>
         <h3>Você pode entrar com o seu CPF</h3>
         <div className='login__input-wrapper'>
