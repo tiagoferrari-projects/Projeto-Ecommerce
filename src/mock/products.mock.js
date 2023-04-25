@@ -32,20 +32,9 @@ export const PRODUCTS_MOCK = [
         description:
             "O Nintendo Switch é um console híbrido que pode ser usado tanto como um console de mesa quanto como um dispositivo portátil. Ele tem uma grande variedade de jogos exclusivos da Nintendo e é popular entre jogadores de todas as idades.",
     },
-    // {
-    //     id: 4,
-    //     imgPath: "ps5.png",
-    //     imgPathDetails: " /public/ps5.png",
-    //     title: "Sony PS5",
-    //     price: "R$5800.00",
-    //     color: ["Black", "white"],
-    //     category: "console",
-    //     description:
-    //         "O PS5 é o mais recente console da Sony. Ele é alimentado por um processador AMD de última geração e suporta resoluções de até 8K. O console também tem uma grande biblioteca de jogos exclusivos da Sony.",
-    // },
 
     {
-        id: 5,
+        id: 4,
         imgPath: "godofwar.png",
         imgPathDetails: " /public/godofwar.png",
         title: "God of War Playstation Hits",
@@ -56,7 +45,7 @@ export const PRODUCTS_MOCK = [
     },
 
     {
-        id: 6,
+        id: 5,
         imgPath: "uncharted.png",
         imgPathDetails: " /public/uncharted.png",
         title: "Uncharted: The Nathan Drake Collection",
@@ -67,7 +56,7 @@ export const PRODUCTS_MOCK = [
     },
 
     {
-        id: 7,
+        id: 6,
         imgPath: "granturismo.png",
         imgPathDetails: " /public/granturismo.png",
         title: "Gran Turismo",
