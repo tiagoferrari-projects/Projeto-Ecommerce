@@ -8,7 +8,8 @@ import './index.scss'
 import Login from './views/Login/Login';
 
 import Home from './views/Home/Home';
-import Products from './views/Products/Products';
+import Products from './views/Products/Products'
+import Pay from './views/Pay/Pay';
 import { PRODUCTS_MOCK } from './mock/products.mock';
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
     path: "/home",
     element: <Home data={PRODUCTS_MOCK} />,
   },
-/*
+
   {
     path: "/products/:productId",
     element: <Products data={PRODUCTS_MOCK} />,
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
     path: "/pay/:payId",
     element: <Pay data={PRODUCTS_MOCK} />,
   },
-*/
+
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
